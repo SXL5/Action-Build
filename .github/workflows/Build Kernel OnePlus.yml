@@ -92,7 +92,7 @@ on:
         type: string
         description: "动态清单仓库所有者//Manifest repository owner"
         required: true
-        default: "伤痕冫流年"
+        default: "Numbersf"
       BUILD_TIME:
         type: string
         description: "自定义构建时间(输入F使用UTCT或-1关闭)//Custom build time (Enter F to use UTCT, or -1 to disable)"
@@ -102,7 +102,7 @@ on:
         type: string
         description: "管理器分支名(必填)/内置分支名(必填)/自定义版本标识(留空不修改)/回退分支提交哈希版本(留空不修改)//Manager Branch name (Required) / Builtin branch name (Required) / Custom version identifier (Leave blank to not modify) / Rollback branch commit hash version (Leave blank to not modify)"
         required: false
-        default: "main/builtin/伤痕冫流年/"
+        default: "main/builtin/Numbersf/"
       LZ4_UPDATE:
         type: boolean
         description: "是否升级LZ4到上游最新？//Upgrade LZ4 to the latest upstream?"
